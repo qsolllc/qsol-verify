@@ -74,7 +74,12 @@ Groth16 trusted setup used the Hermez powers-of-tau ceremony file (`pot12_final.
 
 ## License
 
-Apache License 2.0. See `LICENSE`.
+Dual-licensed.
+
+- **Free use** under the [GNU Affero General Public License v3.0](LICENSE).
+- **Commercial license** available for proprietary use without AGPL
+  source-disclosure obligations. See [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md)
+  or contact qsol.llc@gmail.com.
 
 ## Company
 
