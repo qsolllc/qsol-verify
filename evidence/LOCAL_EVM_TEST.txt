@@ -1,0 +1,20 @@
+CASE:            LOCAL EVM GROTH16 TEST
+CHAIN:           31337 (anvil)
+VERIFIER:        0x5FbDB2315678afecb367f032d93F642f64180aa3
+ENGINE:          0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+PUBLIC_SIGNAL:   2
+TEST_1_VALID:        true
+TEST_2_TAMPERED:     false
+TEST_3_TX_STATUS:    1  gas=266348
+TEST_4_STATE:        2
+TEST_5_REPLAY:       true
+TEST_6_TAMPER:       true
+RESULT:              ALL TESTS PASSED
+GENERATED_AT:        2026-09-23T23:35:41Z
+
+--- artifact hashes ---
+afac189ce4323e86fd66fa63dec63bee2d2de40b63811328eaf74187b92a0668  contracts/BattleVerifier.sol
+2d201def9ec7c71f81dbb69667c24156aa45f1f703cd06f4433bca402eae5974  contracts/BattleEngine.sol
+b510a6b0dbca09c15fda193a0d33d735b1655576f605381572a44af063c1e3ce  evm-test.cjs
+8e1e168330235af86e483f5ed92a61a9cb64b63a4ca8c779a22999283465aa14  proofs/battle_proof.json
+7775d850d82800d8b6a6943f1234d13774bb51f1f2b7ef5c8c215743ebda5057  proofs/battle_public.json

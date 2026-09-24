@@ -1,0 +1,8 @@
+CASE:            SIGIL REJECTION (wrong sigil)
+PREDICATE:       private_state >= public_threshold AND sigil == 13527280201377514951
+EXPECTED:        witness generation fails on sigil constraint
+ACTUAL:          Assert Failed at InvariantCheck_3 line: 10
+RESULT:          PASS
+GENERATED_AT:    2026-09-23T23:05:41Z
+
+6fa78c0d92916c75834cb3d34920535f364cfe49350f278c89170c2ecad26f25  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/input_sigil_bad.json

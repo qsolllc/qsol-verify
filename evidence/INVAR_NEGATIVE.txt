@@ -1,0 +1,11 @@
+CASE:            NEGATIVE (private_state < public_threshold)
+PREDICATE:       private_state >= public_threshold AND sigil == 13527280201377514951
+PUBLIC_SIGNALS:  is_valid=0, threshold=999999999999999999999999
+VERIFY:          OK
+GENERATED_AT:    2026-09-23T23:04:56Z
+
+--- artifact hashes ---
+57e999a543723565eab26665ffac235eb2d42b8b58fc97a029a379d82cbba1fe  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/proof_neg.json
+18bc1008f8d8a45d1c7a820a6243df6b947e84c7a8e3bff23609257a2fb6643f  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/public_neg.json
+f1f02fcfab4a8b7dfe6e62461f6241d4bc1f31f54a69d929c1cd6d6931fa9743  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/input_neg.json
+76bf26080f40420e781e5f6c8ef1ea3acab2bb943dcdbb92ba8903908071252e  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/witness_neg.wtns

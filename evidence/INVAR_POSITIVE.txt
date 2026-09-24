@@ -1,0 +1,19 @@
+PREDICATE:       private_state >= public_threshold AND sigil == 13527280201377514951
+CIRCUIT:         qsol/circuits/invar/InvariantCheck.circom
+CONSTRAINTS:     253 non-linear, 4 linear
+CIRCUIT_HASH:    54f336657a50c65c60d9d5e2942f4ac3d4288e76aea1ad01d52d5e3d6d5a6c735a322c5489e02db49b8c4e9967b36d1421a90b7f27f114c24d0e476922082778
+CONTRIB_HASH:    412174283d1a6516c18d97fba0aac0f45ec028f8be435bdf0920825ddba66b19fff125da18b49e300fb8ea746afec509dc7f2c946908f05f2a7b442a99e1b295
+PUBLIC_SIGNALS:  is_valid=1, threshold=999999999999999999999999
+PRIVATE_HIDDEN:  private_state, sigil
+VERIFY:          OK
+GENERATED_AT:    2026-09-23T23:04:16Z
+
+--- artifact hashes ---
+115b3260b159cb7d4861db928c3633223a47bacfd405f41148a6e12a96cbce26  /data/data/com.termux/files/home/qsol-net/qsol/circuits/invar/InvariantCheck.circom
+ac9bde9872a0d5f00a8eb7f08f6b57122cabd12e11ebea58007a4b59087f2d49  /data/data/com.termux/files/home/qsol-net/qsol/circuits/invar/InvariantCheck.r1cs
+2ef4fd7f60ae8772910fb2056892c179939109289cc3ff1910159ea6d175f562  /data/data/com.termux/files/home/qsol-net/qsol/circuits/invar/InvariantCheck.sym
+a50686f8dfb5e7c10ca31d0902f8c1da652137ec12d13762dfddd0628b8b393f  /data/data/com.termux/files/home/qsol-net/qsol/keys/invar/verification_key.json
+a0923ba4aa51ebe94bf1192b4d1756b894cd09ada677b691c816fc43b4696394  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/proof.json
+4a0984615f64dd6d4abe492757d63370104725b17fca91167f798c213ef97176  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/public.json
+235ae7e65735548a515fdaef3c69f3405fbd7d27380db99ea3023032d387e0fb  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/input.json
+e1cf7cb275bded0272ea798d261611524ca38636667c76a6dfadb78f4262ae99  /data/data/com.termux/files/home/qsol-net/qsol/proofs/invar/witness.wtns
